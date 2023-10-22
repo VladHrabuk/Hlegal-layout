@@ -1,0 +1,167 @@
+@import url("./global.css");
+@import url(./header.css);
+@import url(./footer.css);
+
+/* ------------------ Card-gradient ------------------------- */
+.card-gradient {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.back-color {
+  padding: 10px;
+  background: #fff;
+  border-radius: 24px;
+  width: 90px;
+  padding-left: 12px;
+}
+.title {
+  color: #24a3ff;
+  font-size: 22px;
+  line-height: 27px;
+  padding: 30px 0 15px 0;
+}
+.paragraph {
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
+.back-line1 {
+  margin: 0 20px;
+  height: 10px;
+  background: #cacadb;
+  border-radius: 0px 0px 12px 12px;
+}
+.back-line2 {
+  margin: 0 40px;
+  height: 10px;
+  background: #e7e7f2;
+  border-radius: 0px 0px 12px 12px;
+}
+/* ----------------------- Slides ------------------------------- */
+.slick-dots li button:before {
+  font-size: 16px;
+  opacity: 0.2;
+  color: #24a3ff;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: #24a3ff;
+}
+.card-slide {
+  margin: 30px 0;
+  background: #f5f5fa;
+  border-radius: 12px;
+}
+.main-slide {
+  margin-top: 30px;
+}
+.portrait {
+  width: 600px;
+  height: 500px;
+  padding-bottom: 30px;
+  border-radius: 12px 12px 0px 0px;
+}
+.h2-gradient {
+  padding-top: 5px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 30px;
+  line-height: 37px;
+  font-family: "Montserrat-Bold", sans-serif;
+}
+.names {
+  font-family: "Montserrat-Bold", sans-serif;
+  color: #b3b3ba;
+}
+.partner {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b3b3ba;
+}
+.trust {
+  font-size: 14px;
+  line-height: 17px;
+  color: #323264;
+  text-transform: uppercase;
+  padding: 60px 0 30px 0;
+}
+/* -------------------------- Card-logo ------------------------------------ */
+.card-logo {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.card-color {
+  height: 120px;
+}
+.blue {
+  background: #1c4280;
+}
+.dark {
+  background: #143646;
+}
+.orange {
+  background: linear-gradient(0deg, #f48b30, #f48b30), #f48b30;
+}
+.violet {
+  background: #9e4dc3;
+}
+.orange-other {
+  background: #fd9339;
+}
+.light-gray {
+  background: #e2e2e4;
+}
+/* ------------------------- News -------------------------------------------- */
+.services-pad {
+  padding: 30px 0 5px 0;
+}
+.wrap-news {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+.line-news {
+  border-bottom: 4px solid #e6e6f0;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.back-white {
+  background: #f5f5fa;
+}
+.card-news {
+  border-radius: 8px;
+  background: #fff;
+  margin-top: 30px;
+}
+.img-bord {
+  width: 900px;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+  padding-bottom: 30px;
+}
+.news-link,
+.news-link:hover {
+  text-decoration: none;
+  font-family: "Montserrat-Bold", sans-serif;
+  color: #24a3ff;
+}
+.description-news {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+}
+.date-news {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: #b3b3ba;
+  padding-top: 15px;
+}

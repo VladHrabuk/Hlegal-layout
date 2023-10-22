@@ -1,0 +1,73 @@
+:root {
+  --h-color: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  --text-href-color: #24a3ff;
+  --text-grey: #b3b3ba;
+  --text-black: #46466e;
+  --text-active: #f0145a;
+  --background: #f5f5fa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*Значення width/height задають висоту/ширину всього ел-нта */
+}
+img {
+  max-width: 100%;
+  object-fit: cover; /*Змінює пропорції так, щоб зберегти їх при заповненні блока */
+  object-position: center;
+}
+html {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+  color: #323264;
+}
+.container-head {
+  height: 600px;
+  background-image: url(../images/SymbolMain.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.back-gradient {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0 0 12px 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.justify-content {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-start {
+  justify-content: start;
+}
+.justify-end {
+  justify-content: end;
+}
+.align-content {
+  align-content: center;
+}
+a:hover,
+a,
+a:active {
+  text-decoration: none;
+}

@@ -1,0 +1,58 @@
+.line-footer {
+  border-bottom: 2px solid #e6e6f0;
+  margin-top: 30px;
+}
+.place-foot {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.change {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.mail {
+  padding: 10px 0 30px 0;
+}
+.light-gray {
+  color: #b3b3ba;
+  text-align: center;
+}
+.place-foot,
+.place-foot:hover,
+.place-footer:hover {
+  text-decoration: none;
+  font-weight: 400;
+  color: #323264;
+}
+.maps:hover,
+.maps,
+.map:hover {
+  font-family: "Montserrat-Bold", sans-serif;
+  text-decoration: none;
+  color: var(--text-href-color);
+  font-size: 12px;
+  line-height: 15px;
+}
+.firm {
+  color: var(--text-grey);
+  background: #f5f5fa;
+}
+.phone:hover,
+.phone {
+  color: #46466e;
+}
+.mail {
+  color: #24a3ff;
+}
+.padding {
+  padding: 30px 0;
+}
+.paddind-bottom {
+  padding-bottom: 30px;
+}
+.change:hover > svg path {
+  fill: var(--text-active);
+}
+.mail:hover {
+  color: var(--text-active);
+}

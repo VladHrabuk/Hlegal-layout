@@ -1,0 +1,287 @@
+:root {
+  --h-color: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  --text-href-color: #24a3ff;
+  --text-grey: #b3b3ba;
+  --text-black: #46466e;
+  --text-active: #f0145a;
+  --background: #f5f5fa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*Значення width/height задають висоту/ширину всього ел-нта */
+}
+img {
+  max-width: 100%;
+  object-fit: cover; /*Змінює пропорції так, щоб зберегти їх при заповненні блока */
+  object-position: center;
+}
+html {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+  color: #323264;
+}
+.container {
+  width: 100%;
+  max-width: 1630px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.justify-content {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-end {
+  justify-content: end;
+}
+.align-content {
+  align-content: center;
+}
+/* ----------------- HEADER --------------------------- */
+a {
+  text-decoration: none;
+}
+.logo {
+  padding-top: 50px;
+}
+.pad {
+  margin-left: 4px;
+}
+.lang {
+  margin-left: 4px;
+  font-size: 12px;
+  line-height: 14px;
+  color: var(--text-grey);
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 8px;
+}
+.active {
+  background: var(--text-active);
+  color: #fff;
+}
+.lang:not(.active):hover {
+  background: #f5f5fa;
+}
+.dot {
+  margin: 0 6px;
+}
+.place {
+  font-weight: 400;
+  color: var(--text-grey);
+}
+a:hover > svg path {
+  fill: var(--text-active);
+}
+.nav-menu {
+  margin-left: 15px;
+  color: var(--text-href-color);
+}
+.nav-menu:not(.active-hover):hover {
+  border-bottom: 2px solid var(--text-href-color);
+  color: var(--text-href-color);
+}
+.active-hover {
+  border-bottom: 2px solid var(--text-active);
+  color: var(--text-active);
+}
+.wrap-pad {
+  padding-top: 16px;
+}
+/* -------------------- MAIN --------------------- */
+.container-form {
+  width: 100%;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 60px;
+}
+.card-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 60px;
+  padding-top: 65px;
+}
+.card {
+  max-width: 650px;
+}
+.back {
+  background-color: var(--background);
+  border-radius: 12px;
+}
+form {
+  padding: 30px;
+}
+.gradient {
+  font-size: 30px;
+  line-height: 37px;
+  font-family: "Montserrat-Bold", sans-serif;
+  background: linear-gradient(90deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text; /* Створює градієнт для тексту*/
+  -webkit-text-fill-color: transparent;
+}
+input {
+  color: var(--text-black);
+}
+input,
+textarea {
+  outline: none;
+}
+input#name:focus,
+input#phone:focus,
+input#email:focus,
+textarea#message:focus {
+  border: 1px solid var(--text-href-color);
+  border-radius: 8px;
+}
+#message {
+  padding: 15px 0 89px 15px;
+  width: 100%;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  resize: none;
+}
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-grey);
+  line-height: 26px;
+}
+.question {
+  color: var(--text-grey);
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+#phone,
+#name {
+  margin-bottom: 15px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 15px 0 15px 15px;
+  width: 100%;
+}
+#name {
+  margin-top: 30px;
+}
+#email {
+  margin-bottom: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  padding: 15px 0 15px 15px;
+  width: 100%;
+}
+.send {
+  line-height: 20px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat-Bold", sans-serif;
+  background: var(--text-href-color);
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  border: none;
+  border-radius: 12px;
+  padding: 18px 0;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.send:hover {
+  background: #0085ff;
+}
+.send:active {
+  background: #006ccf;
+}
+hr {
+  height: 4px;
+  background: #e6e6f0;
+  border-width: 0;
+  margin: 30px 0;
+}
+.place,
+.tel {
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+  color: var(--text-black);
+}
+.tel {
+  padding-bottom: 15px;
+  color: #46466e;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.mail-form {
+  color: var(--text-href-color);
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 30px;
+}
+.page {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-href-color);
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+.pink:hover p {
+  color: var(--text-active);
+}
+.pink:hover svg path {
+  fill: var(--text-active);
+}
+/* -------------------- FOOTER ------------------------------ */
+.container-gray {
+  width: 100%;
+  background-color: #f5f5fa;
+}
+.place-foot {
+  font-weight: 400;
+  color: #323264;
+}
+.map {
+  color: var(--text-href-color);
+  font-size: 12px;
+  line-height: 15px;
+}
+.rights {
+  color: var(--text-grey);
+}
+.phone {
+  color: #46466e;
+}
+.mail {
+  color: #24a3ff;
+}
+.padding {
+  padding: 30px 0;
+}
+.paddind-bottom {
+  padding-bottom: 30px;
+}
+.change:hover > svg path {
+  fill: var(--text-active);
+}
+.mail:hover {
+  color: var(--text-active);
+}

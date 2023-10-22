@@ -1,0 +1,218 @@
+@import url(./header.css);
+@import url(./footer.css);
+:root {
+  --white-color: #fff;
+  --blue-color: #24a3ff;
+  --text-grey: #b3b3ba;
+  --text-black: #46466e;
+  --text-active: #f0145a;
+  --background: #f5f5fa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+html {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.5px;
+  color: #151515;
+}
+.back-gradient {
+  background: linear-gradient(
+    228.57deg,
+    #323264 11.93%,
+    #323264 57.17%,
+    #643e72 87.46%
+  );
+  border-radius: 0 0 12px 12px;
+}
+.flex {
+  display: flex;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.items-center {
+  align-items: center;
+}
+.items-top {
+  align-items: baseline;
+}
+.justify-content {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-start {
+  justify-content: start;
+}
+.justify-end {
+  justify-content: end;
+}
+.align-content {
+  align-content: center;
+}
+.align-text {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+/* ---------------------------------------------------- */
+.backgroung-white {
+  margin: 40px auto 28px auto;
+  padding: 14px;
+  background: #fff;
+  border-radius: 24px;
+  width: 90px;
+}
+.grad {
+  font-family: "Montserrat-Bold", sans-serif;
+  background: linear-gradient(90deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text; /* Створює градієнт для тексту*/
+  -webkit-text-fill-color: transparent;
+  font-size: 30px;
+  line-height: 37px;
+  padding-bottom: 30px;
+}
+.container {
+  padding: 0 30px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.it-text {
+  color: var(--white-color);
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 15px;
+}
+.send {
+  background: var(--blue-color);
+  padding: 18px 30px;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+  color: var(--white-color);
+  font-family: "Montserrat-Bold", sans-serif;
+}
+.send:hover {
+  background: #0085ff;
+}
+.send:active {
+  background: #006ccf;
+}
+.line {
+  margin: 30px 0;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.5);
+}
+.h-white {
+  color: var(--white-color);
+  font-size: 22px;
+  line-height: 27px;
+  padding-bottom: 30px;
+}
+.point {
+  color: var(--white-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 15px;
+}
+.dot-separator {
+  padding-right: 8px;
+}
+.pad-bottom {
+  padding-bottom: 60px;
+}
+.back-line1 {
+  margin: 0 20px;
+  height: 10px;
+  background: #cacadb;
+  border-radius: 0px 0px 12px 12px;
+}
+.back-line2 {
+  margin: 0 40px 60px 40px;
+  height: 10px;
+  background: #e7e7f2;
+  border-radius: 0px 0px 12px 12px;
+}
+.container-gray {
+  border-radius: 12px 12px 0 0;
+  background: #f5f5fa;
+}
+.hover-servis:hover a {
+  color: var(--text-active);
+}
+.hover-servis:hover svg path {
+  stroke: var(--text-active);
+}
+.services-pad {
+  padding: 30px 0 5px 0;
+}
+.services {
+  text-transform: uppercase;
+  color: var(--blue-color);
+  font-size: 14px;
+  line-height: 17px;
+}
+.vector {
+  margin-left: 5px;
+}
+/* ------------------ News ------------------------ */
+.wrap-news {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+.line-news {
+  border-bottom: 4px solid #e6e6f0;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.back-white {
+  background: #f5f5fa;
+}
+.card-news {
+  border-radius: 8px;
+  background: var(--white-color);
+  padding-bottom: 30px;
+}
+.img-bord {
+  width: 900px;
+  height: 200px;
+  border-radius: 8px 8px 0 0;
+  padding-bottom: 30px;
+}
+.news-link {
+  text-decoration: none;
+  font-family: "Montserrat-Bold", sans-serif;
+  color: var(--blue-color);
+}
+.description-news {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000;
+}
+.date-news {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--text-grey);
+  padding-top: 15px;
+}

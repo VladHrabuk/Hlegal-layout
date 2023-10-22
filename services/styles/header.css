@@ -1,0 +1,35 @@
+.header-colour {
+  background: rgba(245, 245, 250, 0.2);
+  padding: 0 15px;
+}
+.lang {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  border: none;
+  background: none;
+  padding: 5px 7px;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.active-color {
+  background: #f0145a;
+}
+.lang:not(.active-color):hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.telephone {
+  font-family: "Montserrat-Bold", sans-serif;
+  color: #fff;
+  position: absolute;
+  right: 15px;
+  top: 12.5px;
+}
+.pad {
+  padding: 15px 15px 0 15px;
+}
+.hamburg:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}

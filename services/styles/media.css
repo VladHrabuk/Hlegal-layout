@@ -1,0 +1,139 @@
+@media screen and (min-width: 681px) {
+  .hidden-container {
+    display: none;
+  }
+  .container {
+    padding: 0 60px;
+  }
+  .container-news {
+    padding: 0 30px;
+  }
+  .logo {
+    padding-top: 50px;
+  }
+  .pad {
+    padding: 0 4px;
+  }
+  .position-head {
+    position: absolute;
+    top: 100px;
+  }
+  .wrap-head {
+    position: absolute;
+    bottom: 0px;
+    top: 50px;
+    left: 5px;
+    padding-left: 30px;
+  }
+  .wrap-pad {
+    position: absolute;
+    top: 130px;
+    padding-left: 10px;
+  }
+  .service-top {
+    margin-bottom: 10px;
+  }
+  .place {
+    color: #b3b3ba;
+    font-weight: 400;
+  }
+  .tel {
+    font-family: "Montserrat-Bold", sans-serif;
+    color: #fff;
+  }
+  .lang-head {
+    padding-left: 25px;
+  }
+  .dot {
+    margin: 0 6px;
+  }
+  .facebook-svg:hover > svg path {
+    fill: #f0145a;
+  }
+  .nav-menu {
+    margin-left: 15px;
+    color: #fff;
+  }
+  .pad-tablet {
+    margin-top: 200px;
+  }
+  .wrap-news {
+    grid-template-columns: 1fr 1fr;
+  }
+  .wrap-news .item3 {
+    grid-column: 1/3;
+  }
+  .block-footer {
+    padding: 30px 60px 0 60px;
+  }
+  .place-footer {
+    color: #323264;
+  }
+  .firm {
+    padding-top: 4px;
+  }
+  .pad-footer {
+    padding-top: 4px;
+  }
+  .nav-menu:not(.active-hover):hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+  }
+  .active-hover {
+    border-bottom: 2px solid #f0145a;
+    color: #f0145a;
+  }
+  .grid-point {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 60px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .hidden-all {
+    display: none;
+  }
+}
+@media screen and (min-width: 950px) {
+  .wrap-head {
+    position: static;
+  }
+  .position-head {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+  }
+  .wrap-pad {
+    position: static;
+    margin-bottom: 5px;
+  }
+  .pad-tablet {
+    margin-top: 100px;
+  }
+  .wrap-news {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .wrap-news .item3 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+}
+@media screen and (min-width: 1350px) {
+  .container-big {
+    padding: 0 180px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .container {
+    padding: 0 160px;
+  }
+  .block-footer {
+    padding: 30px 160px 0 160px;
+  }
+  .container-big {
+    padding: 0 280px;
+  }
+  .position-head {
+    padding-left: 100px;
+  }
+}
